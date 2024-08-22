@@ -63,6 +63,14 @@ const states = [
       title: 'CHPL Style Guide',
       roles: ['chpl-admin'],
     },
+  }, {
+    name: 'power-bi',
+    url: '/power-bi',
+    component: 'powerBiWrapperBridge',
+    data: {
+      title: 'Power BI Report',
+      roles: ['chpl-admin'],
+    },
   },
 ];
 
