@@ -150,6 +150,7 @@ module.exports = (env) => {
         hash: true,
         inject: 'body',
         template: path.resolve(__dirname, './src/index.html'),
+        scriptLoading: 'blocking',
       }),
       new HtmlWebpackPlugin({
         filename: 'error.html',
